@@ -1,0 +1,180 @@
+
+        body {
+            background-color: #f4f6f9;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Barra de navegación */
+        .navbar {
+            background-color: #2f3b4c;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-size: 1.7rem;
+            color: #fff;
+        }
+
+        .navbar-nav .nav-link {
+            color: #d1d1d1 !important;
+            font-size: 1.1rem;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #fff !important;
+            background-color: #444;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            height: 100vh;
+            width: 250px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #2f3b4c;
+            color: white;
+            padding-top: 20px;
+            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar h4 {
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 40px;
+        }
+
+        .sidebar a {
+            color: #d1d1d1;
+            padding: 12px;
+            display: block;
+            text-decoration: none;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .sidebar a:hover {
+            background-color: #444;
+            color: white;
+        }
+
+        /* Contenido principal */
+        .main-content {
+            margin-left: 250px;
+            padding: 30px;
+        }
+
+        .logout-button {
+            position: fixed;
+            top: 15px;
+            right: 30px;
+            background-color: #f44336;
+            color: white;
+            font-size: 16px;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+            z-index: 1100;
+        }
+
+        .logout-button:hover {
+            background-color: #d32f2f;
+        }
+
+        .dashboard-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .dashboard-header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #007bff;
+        }
+
+        /* Cards estilizadas */
+        .card {
+            border-radius: 15px;
+            border: none;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+            background-color: #ffffff;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card-header {
+            background-color: #007bff;
+            color: white;
+            font-weight: bold;
+            border-radius: 15px 15px 0 0;
+        }
+
+        .card-body {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 0 0 15px 15px;
+        }
+
+        .card-footer {
+            text-align: center;
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-radius: 0 0 15px 15px;
+        }
+
+        .card-body p {
+            font-size: 1.2rem;
+            color: #444;
+        }
+
+        .icon {
+            font-size: 3rem;
+            margin-right: 10px;
+        }
+
+        /* Botones */
+        .btn-primary, .btn-success {
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary:hover, .btn-success:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-success:hover {
+            background-color: #388e3c;
+        }
+        .sidebar-footer {
+    margin-top: auto;
+    text-align: center;
+    padding-bottom: 100px; /* Ajusta la separación inferior */
+}
+
+
+.admin-image {
+    max-width: 80%; /* Ajusta el tamaño máximo al 80% del ancho del contenedor */
+    border-radius: 8px; /* Opcional: bordes redondeados */
+    display: block; /* Se asegura de que la imagen sea un bloque para centrarla */
+    margin: 0 auto 100px; /* Añade un pequeño margen inferior */
+}
+
+
